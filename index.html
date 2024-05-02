@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="index.CSS">
+</head>
+<body>
+    <!--header section starts-->
+    <section class="header">
+        <a style="font-size: 30px; color: black;" href="#" class="logo"><i style="color: peru;" class="fas fa-utensils">
+        </i> foodie</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#food">food</a>
+            <a href="#gallery">gallery</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+            <a href="#table">Book Table</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+     <!--header section ends-->
+
+
+    <!--Home section strats--> 
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                    <span>outstanding food</span>
+                    <h3>delicious cooking</h3>
+                    <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                    <span>outstanding food</span>
+                    <h3>morning moment</h3>
+                    <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                    <span>outstanding food</span>
+                    <h3>authentic kitchen</h3>
+                    <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!--Home section ends-->
+
+
+    <!--about section starts-->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/close-up-croissants-jam.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3 class="title">Welcome to Our Restaurant</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae unde cumque recusandae. Non neque ex totam doloremque quo commodi atque facere aut quos quas consectetur minima, tenetur consequuntur quaerat amet!</p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <img src="images/about-logo-1.png" alt="">
+                    <h3>quality food</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-logo-2.png" alt="">
+                    <h3>food & drinks</h3>
+                </div>
+                <div class="icons">
+                    <img src="images/about-logo-3.png" alt="">
+                    <h3>expert chefs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+
+
+    <!--food section starts-->
+    <section class="food" id="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3>our delicious food</h3>
+        </div>
+        <div class="swiper food-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" data-name="food-1"> 
+                    <img src="images/food-img-1.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99 ₹</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-2"> 
+                    <img src="images/food-img-2.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99 ₹</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-3"> 
+                    <img src="images/food-img-3.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99 ₹</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-4"> 
+                    <img src="images/food-img-4.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99 ₹</div>
+                </div>
+
+                <div class="swiper-slide slide" data-name="food-5"> 
+                    <img src="images/food-img-5.png" alt="">
+                    <h3>delicious food</h3>
+                    <div class="price">49.99 ₹</div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <!--food section ends-->
+
+    <!--food preview section starts-->
+
+    <section class="food-preview-container">
+
+        <div id="close-preview" class="fas fa-times"></div>
+
+        <div class="food-preview" data-target="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+        <div class="food-preview" data-target="food-6">
+            <img src="images/food-img-6.png" alt="">
+            <head>delicious food</head>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis.</p>
+            <div class="price">49.99 ₹</div>
+            <a href="#" class="btn">buy now</a>
+        </div>
+    </section>
+
+    <!--food preview section ends-->
+
+    <!--gallary section starts-->
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <span>our gallery</span>
+            <h3>our Untold stories</h3>
+        </div>
+        <div class="gallery-container">
+
+            <a href="images/food-gallery-img-1.png" class="box">
+                <img src="images/food-gallery-img-1.png" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-gallery-img-2.jpg" class="box">
+                <img src="images/food-gallery-img-2.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-gallery-img-3.jpg" class="box">
+                <img src="images/food-gallery-img-3.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+
+            <a href="images/food-gallery-img-4.jpg" class="box">
+                <img src="images/food-gallery-img-4.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+            <a href="images/food-gallery-img-5.jpeg" class="box">
+                <img src="images/food-gallery-img-5.jpeg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+            <a href="images/food-gallery-img-6.jpg" class="box">
+                <img src="images/food-gallery-img-6.jpg" alt="">
+                <div class="icon"> <i class="fas fa-plus"></i> </div>
+            </a>
+        </div>
+    </section>
+    <!--gallary section ends-->
+
+
+    <!--Menu Section Starts-->
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <span>our menu</span>
+            <h3>our popular dishes</h3>
+        </div>
+
+        <div class="swiper menu-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <h3 class="title">breakfast</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>morning breakfast</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                    </div>
+                </div>
+                <!--lunch-->
+                <div class="swiper-slide slide">
+                    <h3 class="title">lunch</h3>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <h3>delicious lunch</h3>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div class="price">49.99 ₹</div>
+                        </div>
+                    </div>
+                </div>
+                    <!--dinner-->
+                    <div class="swiper-slide slide">
+                        <h3 class="title">dinner</h3>
+                        <div class="box-container">
+                            <div class="box">
+                                <div class="info">
+                                    <h3>delicious dinner</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>delicious dinner</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>delicious dinner</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>delicious dinner</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>delicious dinner</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--drinks-->
+                    <div class="swiper-slide slide">
+                        <h3 class="title">drinks</h3>
+                        <div class="box-container">
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>cold drinks</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--dessert-->
+                    <div class="swiper-slide slide">
+                        <h3 class="title">dessert</h3>
+                        <div class="box-container">
+                            <div class="box">
+                                <div class="info">
+                                    <h3>sweet desserts</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>sweet desserts</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>sweet desserts</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                            <div class="box">
+                                <div class="info">
+                                    <h3>sweet desserts</h3>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                                <div class="price">49.99 ₹</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--Menu Section ends-->
+
+    <!--Order Section Start-->
+
+    <section class="order" id="order">
+        <div class="heading">
+            <span>order now</span>
+            <h3>fast home delivery</h3>
+        </div>
+
+        <form action="connect.php" method="post">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span for="firstName">Full name</span>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="inputBox">
+                        <span for="foodName">Food name</span>
+                        <input type="text" placeholder="Food you want">
+                    </div>
+                    <div class="inputBox">
+                        <span for="orderdetail">Order details</span>
+                        <input type="text" placeholder="Specifics with food">
+                    </div>
+                    <div class="inputBox">
+                        <span for="address">Your address</span>
+                        <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <span for="number">Number</span>
+                        <input type="number" placeholder="Enter your number">
+                    </div>
+                    <div class="inputBox">
+                        <span for="want">How much</span>
+                        <input type="number" placeholder="How many you want">
+                    </div>
+                    <div class="inputBox">
+                        <span for="date">When you want</span>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="inputBox">
+                        <span>our address</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7109.195760764862!2d72.90121545416328!3d19.283888883052906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ba9ca210cfd5%3A0x7fe6e0b46708cd7c!2sHotel%20Fountain!5e0!3m2!1sen!2sin!4v1712641013337!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+    </section>
+
+    <!--Order Section Start-->
+
+    <!--Table section start-->
+    
+    <section class="table" id="table">
+        <div class="heading">
+            <h3>Book A Table</h3>
+        </div>
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <input type="text" placeholder="your name">
+                    </div>
+                    <div class="inputBox">
+                        <select name="person" class="inputBox">
+                            <option value="1-person">1 Person</option>
+                            <option value="2-person">2 Person</option>
+                            <option value="3-person">3 Person</option>
+                            <option value="4-person">4 Person</option>
+                            <option value="5-person">5 Person</option>
+                            <option value="6-person">6 Person</option>
+                            <option value="7-person">7 Person</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <input type="number" placeholder="your number">
+                    </div>
+                    <div class="inputBox">
+                        <input type="datetime-local">
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Book now" class="btn">
+
+        </form>
+    </section>
+
+    <!--Table section end-->
+
+    <!--Blog section Starts-->
+    <section class="blogs" id="blogs">
+        <div class="heading">
+            <span>our blogs</span>  
+            <h3>our latest posts</h3>
+        </div>
+
+        <div class="swiper blogs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="">
+                        <span>burger</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-2.jpg" alt="">
+                        <span>sandwhich</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="">
+                        <span>chicken</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-4.jpg" alt="">
+                        <span>ice-cream</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="">
+                        <span>pizza</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-6.jpg" alt="">
+                        <span>coffee</span>
+                    </div>
+
+                    <div class="content">
+                        <div class="icon">
+                            <a href="#"> <i class="fas fa-calendar"> 8th april, 2024 </i></a>
+                            <a href="#"> <i class="fas fa-user"> by admin </i></a>
+                        </div>
+                        <a href="#" class="title">blog title goes here</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatum?</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--Blog section Starts-->
+
+    <!--footer section starts-->
+
+    <section class="footer">
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 10:00pm</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+123-456-7890</p>
+                <p>+111-222-3333</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>abcd@gmail.com</p>
+                <p>ab123@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>mumbai, india - 400104</p>
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit">creadited by <span>Mistry Diya & Patel Kirtan </span>| all rights reserved!</div>
+
+    </section>
+    <!--footer section ends-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="Script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
